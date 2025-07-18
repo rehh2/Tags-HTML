@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a Tag &lt;font&gt;</title>
+</head>
+<body>
+    <h1>A Tag &lt;font&gt; em HTML</h1>
+    
+    <p>A tag <code>&lt;font&gt;</code> era usada em versões antigas do HTML para definir formatação visual de texto, como cor, tamanho e tipo de fonte.</p>
+    
+    <h2>Como era usada</h2>
+    <p>Sua sintaxe básica incluía três atributos principais:</p>
+    
+    <pre><code>&lt;font face="Arial" size="4" color="red"&gt;
+    Texto formatado
+&lt;/font&gt;</code></pre>
+    
+    <h2>Atributos</h2>
+    <ul>
+        <li><strong>color</strong>: Definía a cor do texto (nome ou código hexadecimal)</li>
+        <li><strong>face</strong>: Especificava a família de fontes</li>
+        <li><strong>size</strong>: Determinava o tamanho do texto (1-7)</li>
+    </ul>
+    
+    <h2>Exemplo antigo</h2>
+    <font face="Verdana" size="3" color="blue">
+        Este é um exemplo de texto formatado com a tag &lt;font&gt;
+    </font>
+    
+    <h2>Status atual</h2>
+    <p>A tag <code>&lt;font&gt;</code> está <strong>obsoleta</strong> no HTML5. O W3C recomenda o uso de CSS para formatação visual:</p>
+    
+    <pre><code>&lt;span style="font-family: Arial; font-size: 16px; color: red;"&gt;
+    Texto formatado
+&lt;/span&gt;</code></pre>
+    
+    <h2>Alternativas modernas</h2>
+    <p>Use estas propriedades CSS no lugar da tag &lt;font&gt;:</p>
+    <ul>
+        <li><code>font-family</code> (substitui <em>face</em>)</li>
+        <li><code>font-size</code> (substitui <em>size</em>)</li>
+        <li><code>color</code> (substitui <em>color</em>)</li>
+    </ul>
+    
+    <h2>Por que foi removida?</h2>
+    <p>A tag &lt;font&gt; foi depreciada porque:</p>
+    <ol>
+        <li>Misturava conteúdo com apresentação</li>
+        <li>Dificultava a manutenção</li>
+        <li>Não era acessível</li>
+        <li>CSS oferece muito mais controle e flexibilidade</li>
+    </ol>
+</body>
+</html>

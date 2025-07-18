@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a Tag &lt;del&gt;</title>
+</head>
+<body>
+    <h1>A Tag &lt;del&gt; em HTML</h1>
+    
+    <p>A tag <code>&lt;del&gt;</code> é usada para marcar texto que foi removido de um documento, mas que ainda deve ser visível para fins de histórico ou comparação.</p>
+    
+    <h2>Como usar</h2>
+    <p>Basta envolver o texto que foi removido com a tag <code>&lt;del&gt;</code>:</p>
+    
+    <pre><code>&lt;p&gt;O preço era &lt;del&gt;R$ 100,00&lt;/del&gt; agora R$ 80,00.&lt;/p&gt;</code></pre>
+    
+    <h2>Exemplo prático</h2>
+    <p>O preço do produto era <del>R$ 120,00</del> agora por apenas R$ 89,90.</p>
+    
+    <h2>Atributos importantes</h2>
+    <ul>
+        <li><strong>cite</strong>: URL que explica o motivo da alteração (opcional)</li>
+        <li><strong>datetime</strong>: Data e hora da alteração no formato YYYY-MM-DDThh:mm:ssTZD (opcional)</li>
+    </ul>
+    
+    <h3>Exemplo com atributos:</h3>
+    <pre><code>&lt;del 
+  cite="http://exemplo.com/motivo-da-alteracao" 
+  datetime="2023-10-15T16:30:00Z"&gt;
+    Texto removido
+&lt;/del&gt;</code></pre>
+    
+    <h2>Uso em conjunto com &lt;ins&gt;</h2>
+    <p>Frequentemente usada junto com a tag <code>&lt;ins&gt;</code> (que marca texto inserido):</p>
+    
+    <p>Nossa política de entrega era <del>5 dias úteis</del> <ins>2 dias úteis</ins> para todo o país.</p>
+    
+    <h2>Estilo padrão</h2>
+    <p>Os navegadores geralmente renderizam o conteúdo da tag <code>&lt;del&gt;</code> com:</p>
+    <ul>
+        <li>Uma linha atravessando o texto (tachado)</li>
+        <li>Cor mais clara que o texto normal</li>
+    </ul>
+    
+    <h2>Semântica e acessibilidade</h2>
+    <p>A tag <code>&lt;del&gt;</code> é importante porque:</p>
+    <ol>
+        <li>Indica claramente alterações no documento</li>
+        <li>Fornece contexto histórico</li>
+        <li>É reconhecida por leitores de tela</li>
+        <li>Melhora a compreensão das alterações</li>
+    </ol>
+    
+    <h2>Casos de uso comuns</h2>
+    <ul>
+        <li>Mostrar alterações de preços</li>
+        <li>Indicar itens removidos de listas</li>
+        <li>Documentar revisões em textos</li>
+        <li>Mostrar versões anteriores em documentos legais</li>
+    </ul>
+</body>
+</html>
